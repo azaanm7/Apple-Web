@@ -371,7 +371,13 @@ body {
   width: 230px;
   height: 230px;
 }
-
+.s4-img6 {
+  background-image: url(img/baterry.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 230px;
+  height: 230px;
+}
 .s4-name {
   color: #b64400;
   font-family: Inter;
@@ -459,7 +465,9 @@ body {
 .color10 {
   background-color: #e2a48d;
 }
-
+#price179 {
+  margin-top: 32px;
+}
 /* section5 */
 
 .s5-scroll {
@@ -679,6 +687,7 @@ body {
   display: flex;
   margin-top: 50px;
   margin-left: 30px;
+  width: 305px;
 }
 #squarebox {
   min-width: 480px;
@@ -820,9 +829,40 @@ body {
 }
 #s8-whitetext {
   color: #ffffff;
+  width: 300px;
 }
 #s8-textgap {
   margin-top: 8px;
+  width: 320px;
+}
+#carrierdeals {
+  width: 330px;
+}
+#educationtext {
+  width: 338px;
+}
+#governmenttext {
+  width: 340px;
+}
+/* section7 */
+#appletvtext {
+  width: 404px;
+  color: #ffffff;
+}
+#appleservices {
+  width: 290px;
+}
+#newfeatures {
+  width: 384px;
+}
+.s8-h {
+  margin-bottom: 24px;
+}
+#tradeintext {
+  width: 334px;
+}
+#specialisttext {
+  width: 365px;
 }
 /* section9 */
 .section9 {
@@ -882,4 +922,14 @@ body {
 }
 .box4 {
   width: 114px;
+}
+.s7-name {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.196px;
+  display: flex;
+  justify-content: start;
+  margin: 0;
 }
