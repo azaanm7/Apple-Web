@@ -162,7 +162,7 @@
     <!-- section7 -->
     <div class="section7">
       <div class="movie1 moviesize" id="m1">
-        <div class="m-line">
+        <div class="m-line" id="shrinking">
           <div class="streambutton"><p class="stream-b">Stream now</p></div>
           <div class="right-text">
             <p class="genre">Comedy</p>
@@ -173,7 +173,7 @@
       </div>
 
       <div class="movie2 moviesize" id="m2">
-        <div class="m-line">
+        <div class="m-line" id="hijack">
           <div class="streambutton"><p class="stream-b">Stream now</p></div>
           <div class="right-text">
             <p class="genre">Thriller</p>
@@ -184,7 +184,7 @@
       </div>
 
       <div class="movie3 moviesize" id="m3">
-        <div class="m-line">
+        <div class="m-line" id="monarch">
           <div class="streambutton"><p class="stream-b">Stream now</p></div>
           <div class="right-text">
             <p class="genre">Adventure</p>
@@ -195,7 +195,7 @@
       </div>
 
       <div class="movie4 moviesize" id="m4">
-        <div class="m-line">
+        <div class="m-line" id="tehran">
           <div class="streambutton"><p class="stream-b">Stream now</p></div>
 
           <div class="right-text">
@@ -209,7 +209,7 @@
       </div>
 
       <div class="movie5 moviesize" id="m5">
-        <div class="m-line">
+        <div class="m-line" id="f1movie">
           <div class="streambutton"><p class="stream-b">Stream now</p></div>
 
           <div class="right-text">
@@ -221,7 +221,7 @@
       </div>
 
       <div class="movie6 moviesize" id="m6">
-        <div class="m-line">
+        <div class="m-line" id="pluribus">
           <div class="streambutton"><p class="stream-b">Stream now</p></div>
           <div class="right-text">
             <p class="genre">Drama</p>
@@ -232,7 +232,7 @@
       </div>
 
       <div class="movie7 moviesize" id="m7">
-        <div class="m-line">
+        <div class="m-line" id="tedlasso">
           <div class="streambutton"><p class="stream-b">Stream now</p></div>
           <div class="right-text">
             <p class="genre">Comedy</p>
@@ -243,7 +243,7 @@
       </div>
 
       <div class="movie8 moviesize" id="m8">
-        <div class="m-line">
+        <div class="m-line" id="dropsofgods">
           <div class="streambutton"><p class="stream-b">Stream now</p></div>
           <div class="right-text">
             <p class="genre">Drama</p>
@@ -254,7 +254,7 @@
       </div>
 
       <div class="movie9 moviesize" id="m9">
-        <div class="m-line">
+        <div class="m-line" id="themorningshow">
           <div class="streambutton"><p class="stream-b">Stream now</p></div>
           <div class="right-text">
             <p class="genre">Drama</p>
@@ -300,10 +300,15 @@
           <div class="div2">
             <img class="img1-style" src="/images/img1.jpg" alt="" />
             <div class="music-rightside">
-              <img class="music-icon" src="/images/music.svg" alt="" />
+              <div class="applemusic">
+                <img class="music-icon" src="/images/music.svg" alt="" />
+              </div>
               <p class="com-text">New Music Daily</p>
-              <div class="play-button-l">
-                <p>Listen now</p>
+              <div class="s8-width390">
+                <img class="music-icon" src="/images/music.svg" alt="" />
+                <div class="play-button-l">
+                  <p id="text-text">Listen now</p>
+                </div>
               </div>
             </div>
           </div>
@@ -312,7 +317,7 @@
           <img class="arcade-icon" src="/images/arcade.svg" alt="" />
           <div class="text-button">
             <div class="text-div">
-              <p class="com-text">SpongeBob: Patty Pursuit 2</p>
+              <p class="com-text1">SpongeBob: Patty Pursuit 2</p>
             </div>
             <div class="play-button-p"><p id="text-text">Play now</p></div>
           </div>
@@ -320,7 +325,7 @@
         <div id="c3" class="com3 commercial">
           <img class="fitness-icon" src="/images/fitness.svg" alt="" />
           <div class="text-button">
-            <div class="text-div"><p class="com-text">HIIT with Anja</p></div>
+            <div class="text-div"><p class="com-text1">HIIT with Anja</p></div>
             <div class="play-button-w"><p id="text-text">Watch now</p></div>
           </div>
         </div>
@@ -328,10 +333,24 @@
           <div class="div2">
             <img class="img4-style" src="/images/img4.jpg" alt="" />
             <div class="music-rightside">
-              <img class="music-icon" src="/images/music.svg" alt="" />
-              <p class="com-text">Sabrina Carpenter: The Zane Lowe Interview</p>
-              <div class="play-button-l">
-                <p id="text-text">Listen now</p>
+              <div class="applemusic">
+                <img class="music-icon" src="/images/music.svg" alt="" />
+              </div>
+              <div>
+                <p class="com-text">
+                  Sabrina Carpenter: The Zane Lowe Interview
+                </p>
+              </div>
+              <div class="s8-width390">
+                <img
+                  id="s8-musicicon"
+                  class="music-icon"
+                  src="/images/music.svg"
+                  alt=""
+                />
+                <div class="play-button-l">
+                  <p id="text-text">Listen now</p>
+                </div>
               </div>
             </div>
           </div>
@@ -340,7 +359,7 @@
           <img class="arcade-icon" src="/images/arcade.svg" alt="" />
           <div class="text-button">
             <div class="text-div">
-              <p class="com-text">Hello Kitty Island Adventure</p>
+              <p class="com-text1">Hello Kitty Island Adventure</p>
             </div>
             <div class="play-button-p"><p id="text-text">Play now</p></div>
           </div>
@@ -348,18 +367,30 @@
         <div id="c6" class="com6 commercial">
           <img class="fitness-icon" src="/images/fitness.svg" alt="" />
           <div class="text-button">
-            <div class="text-div"><p class="com-text">Bad Bunny</p></div>
+            <div class="text-div"><p class="com-text1">Bad Bunny</p></div>
             <div class="play-button-w"><p id="text-text">Watch now</p></div>
           </div>
         </div>
         <div id="c7" class="com7 commercial">
           <div class="div2">
-            <img class="img7-style" src="/images/img7.jpg" alt="" />
+            <div class="s8-musicsize">
+              <img class="img7-style" src="/images/img7.jpg" alt="" />
+            </div>
             <div class="music-rightside">
-              <img class="music-icon" src="/images/music.svg" alt="" />
+              <div class="applemusic">
+                <img class="music-icon" src="/images/music.sсg" alt="" />
+              </div>
               <p class="com-text">A-List Pop</p>
-              <div class="play-button-l">
-                <p id="text-text">Listen now</p>
+              <div class="s8-width390">
+                <img
+                  id="s8-musicicon"
+                  class="music-icon"
+                  src="/images/music.sсg"
+                  alt=""
+                />
+                <div class="play-button-l">
+                  <p id="text-text">Listen now</p>
+                </div>
               </div>
             </div>
           </div>
@@ -369,9 +400,11 @@
             <img class="arcade-icon" src="/images/arcade.svg" alt="" />
             <div class="text-button">
               <div class="text-div">
-                <p class="com-text">PowerWash Simulator</p>
+                <p class="com-text1">PowerWash Simulator</p>
               </div>
-              <div class="play-button-p"><p id="text-text">Play now</p></div>
+              <div class="play-button-p">
+                <p id="text-text" class="playtextdiv">Play now</p>
+              </div>
             </div>
           </div>
         </div>
@@ -380,7 +413,140 @@
             <img class="fitness-icon" src="/images/fitness.svg" alt="" />
             <div class="text-button">
               <div class="text-div">
-                <p class="com-text">Black History Month</p>
+                <p class="com-text1">Black History Month</p>
+              </div>
+              <div class="play-button-w"><p id="text-text">Watch now</p></div>
+            </div>
+          </div>
+        </div>
+        <div id="c1" class="com1 commercial flex-center">
+          <div class="div2">
+            <img class="img1-style" src="/images/img1.jpg" alt="" />
+            <div class="music-rightside">
+              <div class="applemusic">
+                <img class="music-icon" src="/images/music.svg" alt="" />
+              </div>
+              <p class="com-text">New Music Daily</p>
+              <div class="s8-width390">
+                <img
+                  id="s8-musicicon"
+                  class="music-icon"
+                  src="/images/music.svg"
+                  alt=""
+                />
+                <div class="play-button-l">
+                  <p id="text-text">Listen now</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="c2" class="com2 commercial">
+          <img class="arcade-icon" src="/images/arcade.svg" alt="" />
+          <div class="text-button">
+            <div class="text-div">
+              <p class="com-text1">SpongeBob: Patty Pursuit 2</p>
+            </div>
+            <div class="play-button-p playcenter">
+              <p id="text-text">Play now</p>
+            </div>
+          </div>
+        </div>
+        <div id="c3" class="com3 commercial">
+          <img class="fitness-icon" src="/images/fitness.svg" alt="" />
+          <div class="text-button">
+            <div class="text-div"><p class="com-text1">HIIT with Anja</p></div>
+            <div class="play-button-w"><p id="text-text">Watch now</p></div>
+          </div>
+        </div>
+        <div id="c4" class="com4 commercial">
+          <div class="div2">
+            <img class="img4-style" src="/images/img4.jpg" alt="" />
+            <div class="music-rightside">
+              <div class="applemusic">
+                <img class="music-icon" src="/images/music.svg" alt="" />
+              </div>
+              <div>
+                <p class="com-text">
+                  Sabrina Carpenter: The Zane Lowe Interview
+                </p>
+              </div>
+              <div class="s8-width390">
+                <img
+                  id="s8-musicicon"
+                  class="music-icon"
+                  src="/images/music.svg"
+                  alt=""
+                />
+                <div class="play-button-l">
+                  <p id="text-text">Listen now</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="com5 commercial">
+          <img class="arcade-icon" src="/images/arcade.svg" alt="" />
+          <div class="text-button">
+            <div class="text-div">
+              <p class="com-text1">Hello Kitty Island Adventure</p>
+            </div>
+            <div class="">
+              <div class="play-button-p playcenter">
+                <p id="text-text">Play now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="com6 commercial">
+          <img class="fitness-icon" src="/images/fitness.svg" alt="" />
+          <div class="text-button">
+            <div class="text-div"><p class="com-text1">Bad Bunny</p></div>
+            <div class="play-button-w"><p id="text-text">Watch now</p></div>
+          </div>
+        </div>
+        <div class="com7 commercial">
+          <div class="div2">
+            <img class="img7-style" src="/images/img7.jpg" alt="" />
+
+            <div class="music-rightside">
+              <div class="applemusic">
+                <img class="music-icon" src="/images/music.sсg" alt="" />
+              </div>
+              <p class="com-text">A-List Pop</p>
+              <div class="s8-width390">
+                <img
+                  id="s8-musicicon"
+                  class="music-icon"
+                  src="/images/music.sсg"
+                  alt=""
+                />
+                <div class="play-button-l">
+                  <p id="text-text">Listen now</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="com8 commercial">
+          <div class="space-between">
+            <img class="arcade-icon" src="/images/arcade.svg" alt="" />
+            <div class="text-button">
+              <div class="text-div">
+                <p class="com-text1">PowerWash Simulator</p>
+              </div>
+              <div class="play-button-p playcenter">
+                <p id="text-text">Play now</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="c9" class="com9 commercial">
+          <div class="space-between">
+            <img class="fitness-icon" src="/images/fitness.svg" alt="" />
+            <div class="text-button">
+              <div class="text-div">
+                <p class="com-text1">Black History Month</p>
               </div>
               <div class="play-button-w"><p id="text-text">Watch now</p></div>
             </div>
