@@ -718,11 +718,7 @@ body {
     transform: translateX(-50%);
   }
 }
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .com1 {
   background-color: #385156;
   width: 417px;
@@ -734,6 +730,7 @@ body {
   height: 196px;
   border-radius: 8px;
   margin-top: 20px;
+  margin-left: 15px;
 }
 .svg1 {
   color: white;
@@ -926,8 +923,7 @@ body {
 #s8-musicicon {
   display: none;
 }
-.applemusic {
-}
+
 /* section9 */
 .s9-div {
   width: 100%;
@@ -1080,10 +1076,14 @@ body {
     height: 161px;
   }
   .img1-style {
+    display: flex;
+    justify-content: center;
     width: 110px;
     height: 110px;
     border-radius: 5px;
+    margin-left: 15px;
   }
+
   .img4-style {
     width: 110px;
     height: 110px;
@@ -1099,6 +1099,7 @@ body {
   }
   #text-text {
     font-size: 12px;
+    margin: 0;
     margin-top: 4px;
   }
 
@@ -1173,7 +1174,6 @@ body {
     width: 107px;
     height: 36px;
   }
-
   .buy {
     width: 68px;
     height: 44px;
